@@ -16,7 +16,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-
         User::create([
             'name' => 'Christian Halim',
             'user_type' => 'admin',
